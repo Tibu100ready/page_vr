@@ -1,0 +1,113 @@
+/*Esto es un hack para paleta de colores */
+:root {
+    --rojo:#9ba012;
+    --oscuro:#242222;
+    --primario:#60aa10;
+    --secundario:#24b4c4;
+    --gris:#797171; }
+
+
+    html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+/**{background-color: #08d320;}*/
+h1 {font-family: cursive;
+    margin-left: 15em;
+    padding: 100 px;}
+    
+
+.pato{font-size: 2em; text-align: center;display: inline-block;
+    padding: 10em 20em;
+    margin: 10em;
+    height: 5em;
+    width: 3em;
+    border: 5em; 
+        background-color: var(--gris);
+        color: whitesmoke;
+        font-size: 1,9rem;
+        font-weight: 300; }
+
+.gato{font-size: 2em; text-align: center;display: inline;} 
+
+h6{font-size: xx-large;color:purple peru ; text-align: center;}
+.principal
+{ padding: 1em;
+    display: flex;
+    /*flex-direction: column; -- cambia la dirección del texto, el default es row*/
+    justify-content:space-between;
+    /*text-align: right;*/
+    padding-left: 4rem;
+    padding-right: 6rem;
+    background-color: var(--secundario);
+    color: white;
+    font-size: 2rem;
+    /*font-weight: 1;*/
+}
+
+.poto {padding-left: 2rem; }
+
+.principal--1 a:hover
+{ padding: 1em;
+    background-color: var(--primario);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*@media (min-width: 110px)
+{body
+{ background-color: rgb(246, 127, 127)}
+}
+
+@media (min-width: 880px)
+{body
+{ background-color: rgb(171, 240, 128) }
+}
+*/
+
+.hero
+    {background-image: url(../Programación/Tiburon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0rem 0rem 40rem 0rem;}
+
+.principal--1 a:visited
+    {padding: 1em;
+    background-color: var(--primario);
+    font-size: 2rem;
+    font-weight: 700;}
+
+.formulario {padding: 1em;
+    display: flex;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 6rem;
+    background-color: var(--gris);
+    color: whitesmoke;
+    font-size: 1,9rem;
+    font-weight: 300; }*
+
+   /* .agua {padding: 1em;
+        display: flex;
+        text-align: center;
+        padding-left: 50rem;
+        padding-right: 6rem;
+        background-color: var(--gris);
+        color: whitesmoke;
+        font-size: 1,9rem;
+        font-weight: 300; }*/
+
+        .agua_mala {padding: 1em;
+            
+            text-align: center;
+           /* padding-left: 5rem */;
+            padding-right: 6rem;
+            background-color: var(--rojo);
+            color: rgb(165, 191, 19);
+            font-size: 3,5rem;
+            font-weight: 800;     }
+
+            .campo_2 {color: #08d320;
+            color: aqua;}
